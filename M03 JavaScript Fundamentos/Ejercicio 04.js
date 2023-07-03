@@ -6,7 +6,7 @@
 function elevarAlCuadrado(num) {
    // Retorna el valor de "num" elevado al cuadrado.
    // Tu código:
-   console.log(Math.pow (num, 2));return
+   console.log(Math.pow (num, 2));
    
 }
 elevarAlCuadrado(6);
