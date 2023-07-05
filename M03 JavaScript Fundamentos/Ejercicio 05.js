@@ -8,8 +8,13 @@ function esPositivo(num) {
    // Si el número es negativo ---> "Es negativo".
    // Si el número es 0, devuelve false.
    // Tu código:
-   
+   if (num>0) return "Es positivo";
+   else if(num<0) return "Es negativo";
+   (num == 0); return false
 }
+const positive = esPositivo(-3)
+console.log(positive)
+
 
 function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
