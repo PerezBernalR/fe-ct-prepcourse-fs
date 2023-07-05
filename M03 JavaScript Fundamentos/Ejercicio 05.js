@@ -20,12 +20,17 @@ function agregarSimboloExclamacion(str) {
    // Agrega un símbolo de exclamación al final del string "str" y retórnalo
    // Ejemplo: "hello world" ---> "hello world!"
    // Tu código:
+   return str + "!";
 }
+const simboloEx = agregarSimboloExclamacion("Hello world")
+console.log(simboloEx)
+
 
 function combinarNombres(nombre, apellido) {
    // Retorna "nombre" y "apellido" combinados en un mismo string pero separados por un espacio.
    // Ejemplo: ("Soy", "Henry") ---> "Soy Henry"
    // Tu código:
+   
 }
 
 function obtenerSaludo(nombre) {
