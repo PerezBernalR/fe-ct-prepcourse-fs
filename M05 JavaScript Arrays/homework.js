@@ -3,11 +3,15 @@
 function devolverPrimerElemento(array) {
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
+   return array[0];
 }
 
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
+   const lista = array[0,1,2,3];
+   var regresaUltimo = array[4];
+   return regresaUltimo;
 }
 
 function obtenerLargoDelArray(array) {
