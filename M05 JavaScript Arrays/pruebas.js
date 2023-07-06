@@ -1,11 +1,8 @@
-function esVocal(letra) {
-    // Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
-    // Si el usuario ingresa un string de más de un caracter debes retornar el mensaje: "Dato incorrecto".
-    // Si no es vocal, tambien debe retornar "Dato incorrecto".
+function incrementarPorUno(array) {
+    // El arreglo recibido por parámetro contiene números.
+    // Retornar un arreglo con los elementos incrementados en +1.
     // Tu código:
-    if (letra === "a", "e", "i", "o", "u") return "Es vocal"
-     else letra.length
-        return "Dato incorrecto";
-    }
-  const siVocal= esVocal("");
-  console.log(siVocal);
+   array = [1,2,3,4,5];
+   const unoMas = array.map((num)=> { 
+    return num + 1})
+   } 
