@@ -9,10 +9,9 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
-   const lista = array[0,1,2,3];
-   var regresaUltimo = array[4];
-   return regresaUltimo;
-}
+   devolverUltimoElemento(array['lunes','martes','miercoles','jueves']);{
+   array[3]; return} 
+   }
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
@@ -27,9 +26,9 @@ function incrementarPorUno(array) {
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
    // Tu código:
-  array = [1,2,3,4,5];
-  const unoMas = array.map((num)=> { 
-   return num + 1})
+  var aumentar = array = [1,2,3,4,5];
+ array.map aumentar => { 
+   return aumentar + 1}
   } 
 
 
