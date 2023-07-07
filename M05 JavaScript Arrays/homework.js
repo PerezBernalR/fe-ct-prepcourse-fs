@@ -9,34 +9,39 @@ function devolverPrimerElemento(array) {
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
-   devolverUltimoElemento(array['lunes','martes','miercoles','jueves']);{
-   array[3]; return} 
+  return array [array.length -1]
    }
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
-   array = ["hora","día","mes","año","siglo"]
    return array.length;
 }
-
 
 
 function incrementarPorUno(array) {
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
    // Tu código:
-  var aumentar = array = [1,2,3,4,5];
- array.map aumentar => { 
-   return aumentar + 1}
-  } 
+    var array = [ 1, 2, 3, 4 ];
+    var masUno = array.map( (num) => { return num + 1 } );
+   console.log(masUno);
+}
+incrementarPorUno();
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
    // Agrega el "elemento" al final del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
+   var final = array = [1]
+   elemento= 2
+   array.push(elemento); return final
+   
 }
+agregarItemAlFinalDelArray();
+
+
 
 function agregarItemAlComienzoDelArray(array, elemento) {
    // Agrega el "elemento" al comienzo del arreglo recibido.

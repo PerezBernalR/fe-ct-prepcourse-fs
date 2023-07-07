@@ -1,6 +1,11 @@
-function devolverUltimoElemento(array) {
-    // Retornar el último elemento del arreglo recibido por parámetro.
+function agregarItemAlFinalDelArray(array, elemento) {
+    // Agrega el "elemento" al final del arreglo recibido.
+    // Retorna el arreglo.
     // Tu código:
-    devolverUltimoElemento(array['lunes','martes','miercoles','jueves']);{
-    array[3]; return} 
-    }
+    var final = array = [1]
+    elemento= 2
+    array.push(elemento); return final
+    console.log(final);
+    
+ }
+ agregarItemAlFinalDelArray();
