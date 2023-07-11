@@ -23,23 +23,19 @@ function incrementarPorUno(array) {
    // El arreglo recibido por parámetro contiene números.
    // Retornar un arreglo con los elementos incrementados en +1.
    // Tu código:
-    var array = [ 1, 2, 3, 4 ];
-    var masUno = array.map( (num) => { return num + 1 } );
-   console.log(masUno);
+    var masUno = array.map((num) => {
+      return num + 1 });
+   return masUno
 }
-incrementarPorUno();
 
 
 function agregarItemAlFinalDelArray(array, elemento) {
    // Agrega el "elemento" al final del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
-   var final = array = [1]
-   elemento= 2
-   array.push(elemento); return final
-   
+   array.push(elemento);
+   return array
 }
-agregarItemAlFinalDelArray();
 
 
 
@@ -47,6 +43,8 @@ function agregarItemAlComienzoDelArray(array, elemento) {
    // Agrega el "elemento" al comienzo del arreglo recibido.
    // Retorna el arreglo.
    // Tu código:
+   array.unshift(elemento);
+   return array
 }
 
 function dePalabrasAFrase(palabras) {
@@ -55,7 +53,11 @@ function dePalabrasAFrase(palabras) {
    // con un espacio entre cada palabra.
    // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
    // Tu código:
+   palabras=['Hola','mundo','!'];
+   
+   return fraseFinal
 }
+dePalabrasAFrase(); 
 
 function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
