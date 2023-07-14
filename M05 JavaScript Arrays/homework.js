@@ -53,28 +53,35 @@ function dePalabrasAFrase(palabras) {
    // con un espacio entre cada palabra.
    // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
    // Tu código:
-   palabras=['Hola','mundo','!'];
-   
-   return fraseFinal
+   var fraseF = 
+   palabras.join(' ');
+   return fraseF
 }
-dePalabrasAFrase(); 
 
 function arrayContiene(array, elemento) {
    // Verifica si el elemento existe dentro del arreglo recibido.
    // Retornar true si está, o false si no está.
    // Tu código:
+   if (array.includes(elemento)){
+      return true;
+   } else {
+      return false;
+   }
 }
 
 function agregarNumeros(arrayOfNums) {
    // El parámetro "arrayOfNums" debe ser un arreglo de números.
    // Suma todos los elementos y retorna el resultado.
    // Tu código:
+   var sumaDeNumeros = arrayOfNums.reduce((a,b)=> a + b, 0);
+   return sumaDeNumeros;
+   
 }
-
 function promedioResultadosTest(resultadosTest) {
    // El parámetro "resultadosTest" es un arreglo de números.
    // Itera (en un bucle) los elementos del arreglo y devuelve el promedio de las notas.
    // Tu código:
+   
 }
 
 function numeroMasGrande(arrayOfNums) {
